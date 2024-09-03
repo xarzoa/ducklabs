@@ -8,15 +8,23 @@ export default function Home() {
         <div className="w-4 h-36 absolute bg-white blur-2xl -z-20 rotate-[22deg] left-11" />
         <div className="w-4 h-36 absolute bg-white blur-2xl -z-20 -bottom-16 right-36 -rotate-[35deg]" />
         <div className="text-center">
-          <div className="text-2xl font-bold my-24 mx-8">
-            Generative models are the future. So we help you to get started.
+          <div className="my-24 mx-8">
+            <div className="text-3xl font-bold backdrop-blur-sm p-2">Yet another AI?</div>
+            <div className="text-stone-300">No! We build with FOSS, for humans!</div>
           </div>
           <NewsLetter />
         </div>
       </div>
-      {/* <div className="grid text-center">
-        We make apps, websites, bots and train AI. Also we love kubernetes and docker.
-      </div> */}
+      <div className="grid grid-cols-1 md:grid-cols-2 m-2 p-2 gap-2">
+        <div className="backdrop-blur-sm rotate-2 p-2 bg-stone-900/50">We build apps, bots, for web and you!</div>
+        <div className="backdrop-blur-sm -rotate-2 p-2 bg-stone-900/50">
+          We are passionate about making discord and telegram bots.
+        </div>
+        <div className="backdrop-blur-sm rotate-2 p-2 bg-stone-900/50">We made whisp. A stanger chat site.</div>
+        <div className="backdrop-blur-sm rotate-2 p-2 bg-stone-900/50">
+          We made the GooseAI. One of the most advanced AI telegram bots.
+        </div>
+      </div>
     </main>
   );
 }
