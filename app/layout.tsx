@@ -21,8 +21,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "DuckLabs - We innovate.",
-  description: "Generative AI is the future. We are building the future.",
+  title: "DuckLabs - We build for the future.",
+  description: "Generative AI is the future. We are building for the future.",
 };
 
 export const viewport = {
@@ -43,7 +43,7 @@ export default function RootLayout({
         <ThemeProvider forcedTheme="dark" attribute="class" defaultTheme="dark">
           <Header />
           <div className="flex items-center justify-center">
-            <div className="md:w-[75%] w-full">{children}</div>
+            <div className="md:w-[75%] w-full px-2 md:p-0">{children}</div>
           </div>
           <Toaster
             theme="dark"

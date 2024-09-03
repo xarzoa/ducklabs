@@ -34,10 +34,10 @@ const projects = [
 export default function Projects() {
   return (
     <main>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 m-2 md:m-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         {projects.map((project) => (
           <div key={project.name} className="bg-stone-900/70 p-2 ring-1 ring-stone-600 ">
-            <div className="flex gap-2">
+            <div className="flex gap-2 items-center">
               <h2 className="font-bold">{project.name}</h2>
               <div
                 className={`h-4 px-[2px] text-xs ring-1 ring-offset-0 ${project.status ? "bg-stone-50 ring-white text-stone-900" : "bg-stone-400 ring-stone-300"}`}
