@@ -67,7 +67,7 @@ export const newsLetter = async (formData: FormData) => {
     };
   }
   return {
-    message: "We won't spam. Pinky promise!",
+    message: "You're onboard our list. Pet duck's goin busy.",
     type: "success",
   };
 };
