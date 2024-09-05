@@ -5,6 +5,7 @@ import { ThemeProvider } from "next-themes";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import "@/globals.css";
+import Script from "next/script";
 
 const jbMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Script src="https://collect.ducklabs.xyz/script.js" data-website-id={process.env.WEBSITE_ID} />
       <body className={`${jbMono.className} selection:bg-stone-100 selection:text-stone-900 min-h-screen`}>
         <ThemeProvider forcedTheme="dark" attribute="class" defaultTheme="dark">
           <Header />
