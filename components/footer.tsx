@@ -33,10 +33,10 @@ export default function Header() {
                 <Link href="/about">About</Link>
               </li>
               <li>
-                <a href="/legal/privacy">Privacy</a>
+                <Link href="/legal/privacy">Privacy</Link>
               </li>
               <li>
-                <a href="/legal/terms">Terms</a>
+                <Link href="/legal/terms">Terms</Link>
               </li>
             </ul>
           </div>
