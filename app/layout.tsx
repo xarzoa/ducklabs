@@ -10,6 +10,7 @@ import Script from "next/script";
 const jbMono = JetBrains_Mono({
   subsets: ["latin"],
   display: "swap",
+  adjustFontFallback: false,
   variable: "--font-jb_mono",
 });
 
