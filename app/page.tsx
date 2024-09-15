@@ -16,16 +16,14 @@ export default function Home() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 m-2 p-2 gap-6">
-        <div className="backdrop-blur-sm rotate-2 p-2 bg-stone-900/50">
-          We build apps, bots, and tools for web and you!
-        </div>
-        <div className="backdrop-blur-sm -rotate-2 p-2 bg-stone-900/50">
+        <div className="backdrop-blur-sm p-2 bg-stone-900/50">We build apps, bots, and tools for web and you!</div>
+        <div className="backdrop-blur-sm p-2 bg-stone-900/50">
           Yes, We love ducks. And yes course, we pet ducks too.
         </div>
-        <div className="backdrop-blur-sm rotate-2 p-2 bg-stone-900/50">
-          Did you know, AI is just a fancy pharse? and we still isn't there yet.
+        <div className="backdrop-blur-sm p-2 bg-stone-900/50">
+          Did you know? AI is just a fancy pharse and we still isn't there yet.
         </div>
-        <div className="backdrop-blur-sm rotate-2 p-2 bg-stone-900/50">
+        <div className="backdrop-blur-sm p-2 bg-stone-900/50">
           Did you know? We made the GooseAI. One of the most advanced AI telegram bots.
         </div>
       </div>

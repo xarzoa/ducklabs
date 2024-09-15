@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono, DM_Sans } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import { Toaster } from "sonner";
 import { ThemeProvider } from "next-themes";
 import Header from "@/components/header";
@@ -11,14 +11,6 @@ const jbMono = JetBrains_Mono({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-jb_mono",
-});
-
-const dmSans = DM_Sans({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"],
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-dmsans",
-  adjustFontFallback: false,
 });
 
 export const metadata: Metadata = {
