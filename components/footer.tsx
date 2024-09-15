@@ -35,7 +35,7 @@ export default function Header() {
             <ul className="text-sm">
               {company.map((item) => (
                 <li key={item.title}>
-                  <Link href={item.title}>{item.title}</Link>
+                  <Link href={item.path}>{item.title}</Link>
                 </li>
               ))}
             </ul>
