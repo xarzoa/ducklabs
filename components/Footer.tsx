@@ -1,4 +1,4 @@
-import { Github, Instagram, Send, Twitter } from "lucide-react";
+import { Github, Send, Twitter } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -17,17 +17,35 @@ export default function Footer() {
               Connect
             </h3>
             <ul className="space-y-3 text-zinc-500 text-sm">
-              <li className="hover:text-zinc-300 cursor-pointer flex items-center gap-2 transition-colors">
-                <Instagram className="w-4 h-4" /> Instagram
+              <li>
+                <a
+                  href="https://github.com/labsduck"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-zinc-300 cursor-pointer flex items-center gap-2 transition-colors"
+                >
+                  <Github className="w-4 h-4" /> Github
+                </a>
               </li>
-              <li className="hover:text-zinc-300 cursor-pointer flex items-center gap-2 transition-colors">
-                <Github className="w-4 h-4" /> Github
+              <li>
+                <a
+                  href="https://t.me/ducklabs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-zinc-300 cursor-pointer flex items-center gap-2 transition-colors"
+                >
+                  <Send className="w-4 h-4" /> Telegram
+                </a>
               </li>
-              <li className="hover:text-zinc-300 cursor-pointer flex items-center gap-2 transition-colors">
-                <Send className="w-4 h-4" /> Telegram
-              </li>
-              <li className="hover:text-zinc-300 cursor-pointer flex items-center gap-2 transition-colors">
-                <Twitter className="w-4 h-4" /> X (Twitter)
+              <li>
+                <a
+                  href="https://x.com/labsduck"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-zinc-300 cursor-pointer flex items-center gap-2 transition-colors"
+                >
+                  <Twitter className="w-4 h-4" /> X (Twitter)
+                </a>
               </li>
             </ul>
           </div>

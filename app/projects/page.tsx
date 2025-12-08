@@ -9,7 +9,7 @@ const projectsData = [
     description:
       "A discord and telegram bot with rich AI features, including image generation and text generation. Powered by advanced models like Gemini and LLama.",
     tags: ["telegram", "discord", "AI"],
-    link: "#",
+    link: "https://t.me/GooseAIBot",
   },
   {
     id: "2",
@@ -18,7 +18,7 @@ const projectsData = [
     description:
       "A stranger chat app, like omegle. Made using supabase and shadcnUI. Connect anonymously.",
     tags: ["web", "realtime"],
-    link: "#",
+    link: "https://github.com/xarzoa/whisp",
   },
   {
     id: "3",
@@ -27,7 +27,7 @@ const projectsData = [
     description:
       "A platform to share your crypto wallets addresses with ease. Secure and simple link sharing.",
     tags: ["web", "crypto"],
-    link: "#",
+    link: "https://github.com/xarzoa/waladlink",
   },
   {
     id: "5",
@@ -36,7 +36,7 @@ const projectsData = [
     description:
       "We help people to add their locations to the map. A service improving local navigation data in Sri Lanka.",
     tags: ["service", "maps"],
-    link: "#",
+    link: "https://maps.ducklabs.xyz",
   },
   {
     id: "6",
@@ -45,7 +45,7 @@ const projectsData = [
     description:
       "An electronics store side project. We sell electronics, components, and sensors. Not powered by standard e-commerce engines.",
     tags: ["store", "electronics"],
-    link: "#",
+    link: "https://instagram.com/cool.duck_",
   },
 ];
 
@@ -100,6 +100,8 @@ export default function Projects() {
                 </div>
                 <a
                   href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-zinc-500 hover:text-white transition-colors p-2 hover:bg-zinc-800 border border-transparent hover:border-zinc-700"
                 >
                   <ExternalLink className="w-4 h-4" />

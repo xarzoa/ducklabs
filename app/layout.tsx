@@ -23,11 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${firaCode.variable}`}>
       <body
-        className={`font-fira-code antialiased flex-grow relative z-10 w-full pt-20`}
+        className={`font-fira-code antialiased grow relative z-10 w-full pt-20`}
       >
         <div className="fixed inset-0 z-0 pointer-events-none">
           <div className="absolute inset-0 bg-grid opacity-[0.04]" />
-          <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-zinc-950/50" />
+          <div className="absolute inset-0 bg-linear-to-t from-zinc-950 via-transparent to-zinc-950/50" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_50%,rgba(0,0,0,0.6)_100%)] pointer-events-none" />
         </div>
         <Header />
